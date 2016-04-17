@@ -1,0 +1,482 @@
+rev221 - [2012-05-23]
+ - Updated skilldescript.lua's Parry & Spiral Pierce
+
+rev220 - [2012-04-28]
+ - Updated itemInfo.lua with the item related updates from /data/ folder
+
+rev219 - [2012-04-28]
+ - Updated itemInfo.lua with the item related updates from /data/ folder
+
+rev218 - [2012-04-28]
+ - Added lua compiler in /tool/ folder for version 5.1.4
+
+rev216 - [2012-04-23]
+ - Imported all item infos from data folder to itemInfo.lua
+ * this now supports items from pRO and iRO and probably other official servers
+
+rev211 - [2012-04-19]
+ - Added System/itemInfo.lua
+ * this is the replacement for data/(id)num2item(displayname|resname|desc)table.txt and itemslotcountable.txt starting 2012-04-17 and up
+ * this is does NOT include exclusive items from pRO and iRO, they will be imported later
+ - Updated TownInfo.lua
+
+rev209 - [2012-04-18]
+ - 2012-04-18 kRO Patch lua and lub
+ * new lua files weapontable_f and weapontable
+ * new /System/ file will be committed tomorrow
+
+rev202 - [2012-04-11]
+ - 2012-04-10 kRO Patch lua and lub
+
+rev196 - [2012-04-05]
+ - Changed some msgstring_kr.lua strings to fit in the Shortcuts tab
+ * not much of an issue so there will be no v2 for the lub
+
+rev195 - [2012-04-05]
+ - 2012-04-04 kRO Patch lua and lub
+
+rev190 - [2012-03-29]
+ - 2012-03-28 kRO Patch lua and lub
+
+rev189 - [2012-03-22]
+ - fixed a mistake in r187
+ * I wasnt supposed to change that JT_MER_AMISTR
+ * v2 of the lub archive is also added with the fix
+
+rev187 - [2012-03-21]
+ - 2012-03-21 kRO Patch lua and lub
+ * this patch lub files includes the fix in stateiconinfo.lua last revision
+
+rev183~184 - [2012-03-18]
+ - Fixed a Crash while riding new mounts or sitting then Hovering the status icons
+ * This bug exist since 2011-02-23 kRO Patch (r120) to latest
+ * Please replace your statusiconinfo.lua to this.
+
+rev177 - [2012-03-15]
+ - 2012-03-14 kRO Patch lua and lub
+
+rev176 - [2012-03-10]
+ - Added version 2 Lua and Lub for 2012-03-07 kRO Patch
+ * corrected a single mistake that causes the client to not run when launching
+
+rev175 - [2012-03-10]
+ - 2012-03-07 kRO Patch lua and lub
+ * new files /quest/ and ../System/Towninfo.lua
+
+rev174 - [2012-03-09]
+ - 2012-02-29 kRO Patch lua and lub
+
+rev173 - [2012-03-09]
+ - 2012-02-22 kRO Patch lua and lub
+ - Fixed a mistake in Maroll npc names.
+ * no new lua for previous kRO patch
+ * they reverted to the old party_booking (they dont use party_booking_function anymore)
+
+rev172 - [2012-03-08]
+ - updated navi_npc_krsak
+ - added v2 of 2012-02-08 kRO Patch lua and lub
+
+rev171 - [2012-03-08]
+ - 2012-02-08 kRO Patch lua and lub
+ * new files /entryqueue/ and /navigation/
+ * 99% translated mobs (all known mobs are translated)
+ * 95% translated npcs (all known npcs from r(e)Athena/npc/ are translated)
+
+rev169 - [2012-02-27]
+ - 2012-02-01 kRO Patch lua and lub
+
+rev168 - [2012-02-27]
+ - Translated some luas to english
+ - Updated Lub Files
+
+rev167 - [2012-02-26]
+ - 2012-01-25 kRO Patch lua and lub
+
+rev166 - [2012-02-26]
+ - 2012-01-11 kRO Patch lua and lub
+ - moved all lub archives that was compiled using lua compiler 5.0.2 to Lub Files 5.0.2 folder
+ * corrected the date of last revision
+
+rev165 - [2012-02-26]
+ - 2012-01-04 kRO Patch lua and lub
+ - Created Lub Files 5.0.2 folder
+
+rev164 - [2012-02-26]
+ - 2011-12-28 kRO Patch lua and lub
+ * Lub archive now includes /src/ for the patch
+ * Lub are now compiled using lua 5.1.4 compiler
+
+rev163 - [2012-02-25]
+ - 2011-12-21 kRO Patch lua (it should be compiled using lua compiler 5.1.4)
+ * kRo is still not using this lua up to 2011-12-20bRagexeRE.exe so no lub for this patch
+ * many are still in korean need help translating =)
+
+rev162 - [2012-02-25]
+ - Fixed a mistake in jobname_f.lua and updated lub files from 2011-10-12 and up
+
+rev161 - [2012-02-24]
+ - 2011-12-14 kRO Patch lua and lub
+
+rev160 - [2012-02-24]
+ - 2011-12-07 kRO Patch lua and lub
+
+rev159 - [2012-02-23]
+ - 2011-11-30 kRO Patch lua and lub
+
+rev158 - [2012-02-23]
+ - 2011-11-23 kRO Patch lua and lub
+
+rev157 - [2012-02-23]
+ - 2011-11-16 kRO Patch lua and lub
+
+rev156 - [2012-02-23]
+ - 2011-11-09 kRO Patch lua and lub
+ * no lua and lub for 2011-11-02 since lua files extracted were same as 2011-10-19
+
+rev155 - [2012-02-23]
+ - 2011-10-26 kRO Patch lua and lub
+
+rev154 - [2012-02-22]
+ - Fixed a mistake in spriterobename.lua
+
+rev153 - [2012-02-22]
+ - 2011-10-19 kRO Patch lua and lub
+ * Oboro and Kagerou skills are not fully translated and some translations might be wrong.
+
+rev152 - [2012-02-21]
+ - 2011-10-12 kRO Patch lua and lub
+
+rev151 - [2012-02-17]
+ - 2011-10-05 kRO Patch lua and lub
+
+rev150 - [2012-02-16]
+ - 2011-09-28 kRO Patch lua and lub
+
+rev148 - [2012-02-16]
+ - 2011-09-21 kRO Patch lua and lub
+
+rev147 - [2012-02-16]
+ - 2011-09-07 kRO Patch lua for Patcher
+ * can be found in System folder
+
+rev146 - [2012-02-16]
+ - 2011-09-07 kRO Patch lua and lub
+
+rev145 - [2012-02-16]
+ - 2011-08-31 kRO Patch lua and lub (some remains unstranslated)
+
+rev144 - [2012-02-14]
+ - 2011-08-24 kRO Patch lua and lub
+
+rev143 - [2012-02-14]
+ - 2011-08-17 kRO Patch lua and lub
+
+rev142 - [2012-02-14]
+ - 2011-08-10 kRO Patch lua and lub
+
+rev141 - [2012-02-14]
+ - 2011-07-27 kRO Patch lua and lub
+
+rev140 - [2012-02-13]
+ - 2011-07-13 kRO Patch lua and lub
+
+rev139 - [2012-02-13]
+ - 2011-07-06 kRO Patch lua and lub
+
+rev138 - [2012-02-13]
+ - 2011-06-29 kRO Patch lua and lub
+
+rev137 - [2012-02-12]
+ - 2011-06-22 kRO Patch lua and lub
+
+rev136 - [2012-02-12]
+ - 2011-06-15 kRO Patch lua and lub
+
+rev135 - [2012-02-11]
+ - 2011-06-08 kRO Patch lua and lub
+
+rev134 - [2012-02-11]
+ - forgot to commit the lub in r133
+
+rev133 - [2012-02-11]
+ - 2011-06-01 kRO Patch lua and lub
+
+rev132 - [2012-02-11]
+ - 2011-05-25 kRO Patch lua and lub
+
+rev131 - [2012-02-10]
+ - 2011-05-18 kRO Patch lua and lub
+
+rev130 - [2011-05-29]
+ - Added a forgotten skill info "ALL_BUYING_STORE" to skillinfolist.lua (my bad)
+ - Updated 2010-04-28 to 2011-05-04 lub files
+
+rev129 - [2011-05-17]
+ - 2011-05-04 kRO Patch lua and lub
+
+rev128 - [2011-05-16]
+ - 2011-04-27 kRO Patch lua and lub
+
+rev127 - [2011-05-16]
+ - 2011-04-20 kRO Patch lua and lub
+
+rev126 - [2011-05-16]
+ - 2011-04-13 kRO Patch lua and lub
+ * anyone with latest skilldesc?
+
+rev125 - [2011-04-15]
+ - 2011-04-06 kRO Patch lua and lub
+
+rev124 - [2011-04-15]
+ - 2011-03-30 kRO Patch lua and lub
+
+rev123 - [2011-04-15]
+ - 2011-03-16 kRO Patch lua and lub
+
+rev120 - [2011-03-10]
+ - 2011-02-23 kRO Patch lua and lub
+
+rev119 - [2011-03-10]
+ - 2011-01-31 kRO Patch lua and lub
+   (note: 2dlayerdir_¢¯¨Ï/©ø©÷ has been dropped kRO is now using 2dlayerdir_female/male)
+
+rev118 - [2011-03-09]
+ - 2011-01-26 kRO patch lua and lub
+
+rev117 - [2011-03-09]
+ - 2011-01-19 kRO patch lua and lub
+ - Corrected the wrong year in 2011-01-12 lub file
+
+rev116 - [2011-02-21]
+ - 2011-01-12 kRO lub
+
+rev115 - [2011-02-20]
+ - 2011-01-12 kRO patch lua
+
+rev111 - [2011-01-03]
+ - 2010-12-29 kRO patch lua and lub
+
+rev110 - [2011-01-03]
+ - 2010-12-22 kRO patch lua and lub
+
+rev109 - [2011-01-03]
+ - 2010-12-15 kRO patch lua and lub
+
+rev105 - [2010-12-12]
+ - 2010-12-08 kRO Patch lua and lub
+
+rev104 - [2010-12-12]
+ - 2010-12-01 kRO Patch lua and lub
+   (note: jobname_f.lua may behave incorrectly in older exes since functions has been modified)
+
+rev95 - [2010-11-25]
+ - 2010-11-24 kRO Patch lua and lub
+   (note: hotkey.lua/lub has been modified this may not work with older exes)
+   (Just dont get hotkey.lub/lua to make other files work with older exes) 
+
+rev94 - [2010-11-24]
+ - 2010-11-17 kRO Patch lua and lub
+
+rev92 - [2010-11-15]
+ - 2010-11-10 kRO Patch lua and lub
+
+rev91 - [2010-11-15]
+ - 2010-11-03 kRO Patch lua and lub
+
+rev90 - [2010-11-15]
+ - 2010-10-27 kRO Patch lua and lub
+
+rev89 - [2010-10-25]
+ - 2010-10-20 kRO Patch lua and lub
+
+rev88 - [2010-10-25]
+ - 2010-10-13 kRO Patch lua and lub
+
+rev87 - [2010-10-06]
+ - Updated lua files + lub files to kRO Patch(2010-10-06)
+
+rev86 - [2010-10-06]
+ - Updated lua files + lub files to kRO Patch(2010-09-29)
+
+rev84 - [2010-09-16]
+ - Updated lua files + lub files to kRO Patch(2010-09-15)
+
+rev83 - [2010-09-16]
+ - Updated lua files + lub files to kRO Patch(2010-09-08)
+
+rev80 - [2010-09-02]
+ - Updated lua files + lub files to kRO Patch(2010-09-01)
+
+rev77 - [2010-08-26]
+ - Updated lua files + lub files to kRO Patch(2010-08-25)
+
+rev74 - [2010-08-20]
+ - Updated new skill description (credits: doddler)
+ - Patch Client lua translation.
+ - 2010-08-18 Lub files v2
+
+rev72 - [2010-08-19]
+ - Some updates in skilldescript.lua (new skill translations from doddler)
+
+rev70 - [2010-08-19]
+ - Updated lua files + lub files to kRO Patch(2010-08-18)
+ - Updated skilldescript.lua to the latest kRO skill descriptions (Thanks Rikter for major updates :D)
+   * New descriptions are partly translated
+ - Added decompiled Patch Client lub files
+
+rev68 - [2010-08-11]
+ - Updated lua files + lub files to kRO Patch(2010-08-11)
+
+rev60 - [2010-07-14]
+ - Updated lua files + lub files to kRO Patch(2010-07-14)
+
+rev57 - [2010-07-07]
+ - Updated lua files + lub files to kRO Patch(2010-07-07)
+ - Updated stateiconinfo.lub with endure translation from 2010-05-26 to 2010-06-30
+
+rev52 - [2010-07-01]
+ - Fixed syntax errors in msgstring_kr.lua
+
+rev51 - [2010-07-01]
+ - Updated lua files + lub files to kRO Patch(2010-06-30)
+ - Advanced update to msgstring_kr.lua (thanks rytech)
+
+rev49 - [2010-06-23]
+ - Updated lua files + lub files to kRO Patch(2010-06-23)
+
+rev47 - [2010-06-17]
+ - Updated lua files + lub files to kRO Patch(2010-06-16)
+
+rev46 - [2010-06-14]
+ - Fixed GN_CRAZYWEED level to 10
+ 
+rev45 - [2010-06-10]
+ - Updated lua files + lub files to kRO Patch(2010-06-09)
+
+rev40 - [2010-05-29]
+ - Updated lua files + lub files to kRO Patch(2010-05-26)
+
+rev39 - [2010-05-29]
+ - Updated lua files + lub files to kRO Patch(2010-05-19)
+
+rev35 - [2010-05-12]
+ - Updated lua files + lub files to kRO Patch(2010-05-12)
+
+rev33 - [2010-05-04]
+ - Updated lua files + lub files to kRO Patch(2010-04-28)
+
+rev28 - [2010-04-21]
+ - Updated lua files + lub files to kRO Patch(2010-04-21)
+
+rev27 - [2010-04-20]
+ - Updated skilldescript.lua translation (thanks Chilly for sharing your updated skilldesctable)
+ - Added 2010-04-14 v2 lub file
+
+rev26 - [2010-04-20]
+ - Updated lua files to kRO Patch(2010-04-14) this includes the 6 new lub files
+ - fixed party_booking it matches the official one
+ - skilldescript and skillinfoid are not 100% translated i need an updated skilldesctable
+ - Added lub files for that patch
+
+rev21 - [2010-04-07]
+ - Updated lua files to kRO Patch(2010-04-07)
+ - Added Lub files for that patch [90% translated stateiconinfo]
+
+rev20 - [2010-04-06] - Updated translation for stateiconinfo.lua rev17 - [2010-03-31]
+ - Updated lua files to kRO Patch(2010-03-31)
+ - Added Lub files for that patch [90% translated stateiconinfo]
+ 
+rev16 - [2010-03-29]
+ - Removed Hex/Diff files (already added in "[UI] TranslateClient In English" official diff)
+ - Added 2010-03-24 Lub Files v1 [90% translated stateiconinfo]
+
+rev15 - [2010-03-27]
+ - stateiconinfo updates
+ - added diff/hex files for party_booking
+ - added 2010-03-17 Lub Files v1 [90% translated stateiconinfo]
+
+rev13 - [2010-03-24]
+ - Updated lua files to latest kRO patch(2010-03-24)
+
+rev12 - [2010-03-23]
+ - Updated stateiconinfo.lua [credit HiddenDragon for translations]
+
+rev11 - [2010-03-21]
+ - Added diff/hex files for party_booking jobs category and stateicon timers to translate to English
+ - Translated remaining untranslated strings in party_booking.lua
+
+rev10 - [2010-03-20]
+ - Updated party_booking.lua and should be working now
+ - added 2010-03-10 Lub Files v2 now have party_booking.lub in it
+ - updated stateiconinfo.lua some descriptions from korean to english
+
+rev8 - [2010-03-19]
+ - fixed string buf 352 error to party_booking.lua
+ - Translated some korean description from stateiconinfo.lua (some might be not in proper grammar)
+ 
+rev1 - [2010-03-19]
+ - moved to assembla
+ - added stateiconinfo.lua (needs some translators)
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+rev14 - [2010-03-17]
+ - Added stateicon_f.lua and efstids.lua
+ - Updated jobname.lua, npcidentity.lua, accessoryid.lua and accname.lub
+ - updated wndinfo.lua
+ - Updated some typo and translated english in party_booking.lua 95% done
+
+rev13 - [2010-03-15]
+ - Added kRO update new headgear from data.grf that is not in rdata.grf
+ - Fixed party_booking.lua wrong table structure on map list
+ * still not done decompiling yet.
+
+rev12 - [2010-03-13]
+ - Fixed wrong info showed when /ex is highlighted in Option window.
+ - Translated Hotkey_2 [33] and [34]
+ - Added 2010-03-10 lub files v1. 
+   v1 doesnt include party_booking.lub files eathena doesnt have this feature so no need to hurry and it's hard to decompile.
+
+rev11 - [2010-03-11]
+ - Translated Optioninfo.lua to English
+ - Updated and Translated party_booking.lua to English but still incomplete
+
+rev10 - [2010-03-10]
+ - Updated Skilltreeview.lua
+ - Added Optioninfo.lua and Optioninfo_f.lua [not yet translated will be translated on next revision]
+ - Added an "incomplete" party_booking.lua this might take a while before i can finish it kRO used a weird structure for this lub file
+ * Once done ill be add 2010-03-10 lub files in the download section
+
+rev9 - [2010-03-03]
+ - Updated skilltreeview.lua, skillinfo_f.lua, accname.lua and accessoryid.lua
+ - Gravity changed the structure of skilltreeview and fixed some skills with reject sword and gnome skills
+   but i still see 1 mistake which is GN_SPORE_EXPLOSION has max level of 25 but ill stay using that value
+   its up to you to change it
+ - Skillinfo_f.lua has added some checks/functions for the new structure
+ - accname.lua and accessoryid.lua added new headgears called Sloth Hat, Duneyrr Helm and Golden Angel
+   not sure why those new headgears are not in the same numbers
+ - Added 2010-03-03 translated compiled lub files for client 2010-03-03
+
+rev7~8 - 
+ - Added luac5.0.2.exe to compile your lua (not really needed but still some wants it to be compiled)
+
+rev6 - [2010-02-24]
+ - Added lua files/datainfo/accessoryid.lua = viewids of headgears
+ - Added lua files/datainfo/accname.lua = sprite names of headgears
+ - Added lua files/datainfo/accname_f.lua = function that connects those 2 tables
+ - Added a packaged translated compiled lub files for this update.
+ 
+rev5 - [2010-02-17]
+ - Updated /lua files/datainfo/* files to add the latest npc JT_4_WHITETIGER
+ - kRO changed the structure of those files
+ - Added 2010-02-17 translated compiled lub files for client 2010-02-17
+
+rev4 - [2010-02-10]
+ - Updated 2010-02-10 hotkey.lua
+ - Added 2009-12-23+ translated compiled lub files for clients from 2009-12-23 to 2010-02-03 [moved from rev2 forgot to commit]
+ - Added 2010-02-10 translated compiled lub files for client 2010-02-10
+
+rev3 - [2010-02-03]
+ - Updated 2010-02-03 latest emotionlist.lua
+
+rev2 - [2009-12-23]
+ - Added 2009-12-23 decompiled lua binary files
